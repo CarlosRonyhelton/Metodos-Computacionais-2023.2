@@ -10,7 +10,8 @@ vet6 = 8:16;
 %%Final da declaração dos dados comercialmente disponiveis
 
 vetFinal = [vet1 vet2 vet3 vet4 vet5 vet6];
-%% 
+
+
 comprimento = size(vetFinal);
 diametro = input('Digite o diâmetro desejado: ');
 
