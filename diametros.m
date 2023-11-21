@@ -14,6 +14,6 @@ function [diametro] = diametros(diametro)
         if diametro <= vetDiametros(cont)
             diametro = vetDiametros(cont); 
             break;
+        end
     end
-end
 end
