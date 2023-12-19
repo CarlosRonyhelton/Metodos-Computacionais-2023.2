@@ -7,7 +7,6 @@ erro = input('Digite o erro: ');
 n = input('Número de iterações lim.: ');
 cont = 1;
 x(1) = cont;
-y(1) = abs(b-a);
 
 f_a = subs(f,a);
 f_b = subs(f,b);
@@ -35,15 +34,15 @@ elseif  f_a * f_b < 0
         end
 
         cont = cont + 1;
-        x(cont) = cont;
-
-        y(cont) = abs(b-a);
+        x() = cont;
     end
 else 
     disp('Limitantes inválidos!')
 end
 
+x = -1:0.5:1;
+y = x.^2;
 plot(x,y)
-xlabel('Nº de iterações')
-ylabel('Erro')
+xlabel('Eixo x')
+ylabel('Eixo y')
 
