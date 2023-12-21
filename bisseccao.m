@@ -13,9 +13,9 @@ f_a = subs(f,a);
 f_b = subs(f,b);
 
 if f_a == 0  || abs(f_a) < erro
-    fprintf('Raiz encontrada! \n raiz = %d',a)
+    fprintf('Raiz encontrada! \n raiz = %f',a)
 elseif f_b == 0 || abs(f_b) < erro
-    fprintf('Raiz encontrada! \n raiz = %d',b)
+    fprintf('Raiz encontrada! \n raiz = %f',b)
 elseif  f_a * f_b < 0
     while cont < n
         M = (a+b)/2;
